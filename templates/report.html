@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Monthly Report{% endblock %}
+{% block content %}
+<h2>Expense Report</h2>
+<form method="get" action="/report">
+    <label>Select Month:</label>
+    <input type="month" name="month" required>
+    <button type="submit">View</button>
+</form>
+
+{% if report_data %}
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Spent</th>
+            <th>Budget</th>
+            <th>Remaining</th>
+        </tr>
+        {% for category, spent, budget, remaining in report_data %}
+        <tr>
+            <td>{{ category }}</td>
+            <td>{{ spent }}</td>
+            <td>{{ budget }}</td>
+            <td>{{ remaining }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endif %}
+
+<a href="/">← Back</a>
+{% endblock %}
