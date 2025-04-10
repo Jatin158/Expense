@@ -24,7 +24,6 @@ A simple and user-friendly Flask-based web application to **track daily expenses
 - Click **"Add"** to save the expense
 - Click **"← Back"** to return to the homepage
 
-![Add Expense](screenshots/add_expense.png)
 
 ---
 
@@ -35,7 +34,7 @@ A simple and user-friendly Flask-based web application to **track daily expenses
 - Click **"Set Budget"** to save
 - Click **"← Back"** to return to the homepage
 
-![Set Budget](screenshots/set_budget.png)
+
 
 ---
 
@@ -47,7 +46,7 @@ A simple and user-friendly Flask-based web application to **track daily expenses
   - **Remaining** amount
 - If remaining budget is **less than or equal to 10%**, a **warning message** is displayed eg. **“Only Less than 10% budget left for Shopping!”).**
 
-![See Expenses](screenshots/expense_report.png)
+
 
 **Sample Report:**
 
