@@ -93,6 +93,17 @@ A simple and user-friendly Flask-based web application to **track daily expenses
 - Database created using `schema.sql`
 
 
+## Setup
+
+git clone https://github.com/Jatin158/Expense.git
+cd Expense
+
+## Run the App
+
+python app.py
+Visit: http://localhost:5000
+
+
 
 
 
