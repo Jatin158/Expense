@@ -15,7 +15,7 @@ A simple and user-friendly Flask-based web application to **track daily expenses
 
 ---
 
-## UI Preview
+## Test steps and UI Preview
 
 ### ➕ Add Expense
 - Enter the **date** in `DD-MM-YYYY` format
