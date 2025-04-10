@@ -46,9 +46,13 @@ A simple and user-friendly Flask-based web application to **track daily expenses
   - **Spent** amount
   - **Budget** set
   - **Remaining** amount
+
+![Monthly Report](expense_report.png)
+
+
 - If remaining budget is **less than or equal to 10%**, a **warning message** is displayed eg. **“Only Less than 10% budget left for Shopping!”).**
 
-
+![Less Budget](less_budget.png)
 
 **Sample Report:**
 
