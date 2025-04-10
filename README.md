@@ -24,6 +24,7 @@ A simple and user-friendly Flask-based web application to **track daily expenses
 - Click **"Add"** to save the expense
 - Click **"← Back"** to return to the homepage
 
+![Add Expense](add_expense.png)
 
 ---
 
@@ -35,6 +36,7 @@ A simple and user-friendly Flask-based web application to **track daily expenses
 - Click **"← Back"** to return to the homepage
 
 
+![Set Budget](set_budget.png)
 
 ---
 
