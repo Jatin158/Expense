@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Set Budget{% endblock %}
+{% block content %}
+<h2>Set Monthly Budget</h2>
+<form method="POST">
+    <label>Month:</label>
+    <input type="month" name="month" required>
+
+    <label>Category:</label>
+    <input type="text" name="category" required>
+
+    <label>Amount:</label>
+    <input type="number" name="amount" step="0.01" required>
+
+    <button type="submit">Set Budget</button>
+</form>
+<a href="/">← Back</a>
+{% endblock %}
